@@ -16,7 +16,7 @@ URLs:
 
 Alongside with route parameter, GTR also supports query string
 specification, in such a way that if a query parameter is specified
-a match will be successfull only and only if the target URL also
+a match will be successful only and only if the target URL also
 specifies that query parameter and that it is of the same value as
 originally specified. For example:
 
@@ -28,7 +28,7 @@ URLs:
 	`http://www.abcdefg.com/api/v1/users/ken/details?type=cached&format=JSON`
 	`http://www.abcdefg.com/api/v1/users/dennis/details?type=cached`
 
-However, the following URLs will NOT be successfullt matched:
+However, the following URLs will NOT be successfully matched:
 
 	`http://www.abcdefg.com/api/v1/users/ken/details?format=JSON`
 	`http://www.abcdefg.com/api/v1/users/dennis/details?`
@@ -177,7 +177,7 @@ func DefaultRouteTable() *RouteTable {
 	return &_routeTable
 }
 
-// Registeres a new route to the route table
+// Registers a new route to the route table
 func (rt RouteTable) Register(url *url.URL, conf map[string]any) {
 	route := ParseRoute(url)
 	len := len(route.routeParams)
