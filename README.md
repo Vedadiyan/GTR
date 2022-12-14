@@ -1,6 +1,6 @@
 # GTR 
 ![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.18-%23007d9c)
-[![Go report](https://goreportcard.com/badge/github.com/vedadiyan/gtr)](https://goreportcard.com/report/github.com/vedadiyan/gtr)
+[![Go report](https://goreportcard.com/badge/github.com/vedadiyan/gtr)(https://goreportcard.com/report/github.com/vedadiyan/gtr)
 
 GTR (being short for Go Tiny Router) is a minimalistic router
 that was initially developed to identify RESTful call signatures
